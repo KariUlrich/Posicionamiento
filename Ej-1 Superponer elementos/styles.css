@@ -19,6 +19,8 @@
 
 .one {
   background-color: darkgoldenrod;
+  position: relative;
+  z-index: 3;
 }
 
 .two {
@@ -26,6 +28,7 @@
   position: relative;
   top: 100px;
   right: 60px;
+  z-index: 2;
 }
 
 .three {
@@ -33,6 +36,7 @@
   position: relative;
   top: 200px;
   right: 120px;
+  z-index: 4;
 }
 
 .four {
@@ -40,4 +44,5 @@
   position: relative;
   top: 300px;
   right: 180px;
+  z-index: 1;
 }
